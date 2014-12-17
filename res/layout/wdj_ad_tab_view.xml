@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal">
+    <TextView
+            android:id="@+id/title_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/wandou_font_color_black"
+            android:textSize="16dip"
+            android:layout_centerVertical="true"/>
+    <TextView
+            android:id="@+id/number_view"
+            style="@style/text_message_count_tab"
+            android:layout_toRightOf="@id/title_view"
+            android:layout_marginLeft="6dip"
+            android:layout_alignTop="@id/title_view"
+            android:layout_marginTop="4dp"/>
+</RelativeLayout>

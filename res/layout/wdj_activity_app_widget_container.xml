@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/wdj_app_widget_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4D000000"
+                android:paddingLeft="@dimen/wdj_ad_container_horizontal_margin"
+                android:paddingRight="@dimen/wdj_ad_container_horizontal_margin"
+                android:paddingTop="8dip"
+                android:paddingBottom="8dip">
+
+    <include
+        android:id="@+id/wdj_ad_widget_interstitial"
+        layout="@layout/wdj_app_widget_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <FrameLayout
+            android:id="@+id/wdj_ad_widget_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+</RelativeLayout>

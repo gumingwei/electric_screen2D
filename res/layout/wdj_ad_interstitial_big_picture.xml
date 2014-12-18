@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.wandoujia.ads.sdk.volley.toolbox.NetworkImageView
+            android:id="@+id/wdj_ad_interstitial_big_picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_margin="12dp"
+            android:scaleType="centerCrop"/>
+
+    <ImageButton
+            android:id="@+id/wdj_big_interstitial_close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dip"
+            android:layout_marginRight="2dip"
+            android:background="@drawable/wdj_ad_close_button_background"/>
+</RelativeLayout>
